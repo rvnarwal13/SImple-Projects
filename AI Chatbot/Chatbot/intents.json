@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is are you", "what is your age", "how old are you", "age?"],
+         "responses": ["I am few days old!", "Younger than you, so don't be jealous now."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["My name is F.R.I.D.A.Y.", "You can call me F.R.I.D.A.Y.", "I'm F.R.I.D.A.Y.", "I'm F.R.I.D.A.Y. aka Female Replacement Intelligent Digital Assistant Youth."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell assignments to do.", "Exams are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation", "what are your active hours", "when can I ask questions"],
+         "responses": ["We are open 9am-5pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "minors",
+         "patterns": ["minors", "what are the different minors in cse?", "can you name all the minors in cse", "minors for cse", "cse", "computer science minors", "minors for btech cse", "minors for btech computer science"],
+         "responses": ["Minors in CSE are as follows :- \nCyber Security \nData Science \nMachine Learning \nSoftware Methodologies and Testing \nMean Stack Development \nInternet of Things"],
+         "context_set": ""
+        },
+        {"tag": "CyberSecurity",
+         "patterns": ["Cyber Security", "Details of cyber security", "courses in cyber security", "what is cyber security", "what will i study in cyber security", "what to do in cyber security"],
+         "responses": ["Knowledge for better understanding of security issues to protect your network \n710 Total seats \nCareer Opportunities :- \n Information Security Analyst \n Malware Analyst \n Penetration Tester and many more \nCourses to be Studied :- \n INT242 - Cyber Security Essentials \n INT243 - Information Security \n INT244 - Securing Computing Systems \n INT245 - Penetration Testing"],
+         "context_set": ""
+        },
+        {"tag": "DataScience",
+         "patterns": ["Data Science", "Details of Data science", "courses in data science", "what is Data science", "what will i study in data science", "what to do in data science"],
+         "responses": ["Include extracting data, categorizing it in order to analyze the various patterns, relations, connections \n850 Seats \nCareer Opportunities :- \n Data Scientist \n Data Architect \n Data Analyst and many more \nCourses to be Studied :- \n INT217 - Introduction to Data Management \n INT232 - Data Science Toolbox : R Programming \n INT233 - Data Visualization \n INT234 - Predictive Analytics"],
+         "context_set": ""
+        },
+        {"tag": "MachineLearning",
+         "patterns": ["Machine Learning", "Details of Machine Learning", "courses in Machine Learning", "what is Machine Learning", "what will i study in Machine Learning", "what to do in Machine Learning"],
+         "responses": ["Provides systems the ability to automatically learn and improve from experience without being explicitly programmed \n500 Seats \nCareer Opportunities :- \n Business Intelligence Developer \n Computational Linguist \n Human Centered Machine Learning Designer and many more \nCourses to be Studied :- \n INT246 - Soft Computing Techniques \n INT417 - Machine Learning Algorithms \n INT247 - Machine Learning Foundation \n INT248 - Advanced MAchine Learning"],
+         "context_set": ""
+        },
+        {"tag": "MeanStackDevelopment",
+         "patterns": ["Mean Stack Development", "Details of Mean Stack Development", "courses in Mean Stack Development", "what is Mean Stack Development", "what will i study in Mean Stack Development", "what to do in Mean Stack Development"],
+         "responses": ["Refers to a collection of JavaScript based technologies used to develop web applications \n710 Seats \nCareer Opportunities :- \n Mean Stack Trainer \n Mean Stack Developer \n Entrepreneur and many more \nCourses to be Studied :- \n INT219 - Front End Web Developer \n INT220 - Server Side Scripting \n INT221 - MVC Programming \n INT222 - Advanced Web Developing"],
+         "context_set": ""
+        },
+        {"tag": "Software",
+         "patterns": ["Software Methodologies and Testing", "Details of Software Methodologies and Testing", "courses in Software Methodologies and Testing", "what is Software Methodologies and Testing", "what will i study in Software Methodologies and Testing", "what to do in Software Methodologies and Testing"],
+         "responses": ["Advance software engineering, the basics of software testing along with types of testing and to apply the testing techniques successfully on the software projects \n510 Seats \nCareer Opportunities :- \n QA Analyst \n Software Tester and many more \nCourses to be Studied :- \n Advanced Software Engineering \n Software Testing \n Automated Testing \n Advance Testing Technologies"],
+         "context_set": ""
+        },
+        {"tag": "Internet",
+         "patterns": ["Internet of Things", "Details of Internet of Things", "courses in Internet of Things", "what is Internet of Things", "what will i study in Internet of Things", "what to do in Internet of Things"],
+         "responses": ["Consists of the courses to meet the current requirements of the skills in the field of Embedded Systems \n150 Seats \nCareer Opportunities :- \n Entrepreneur \n Industry \n Jobs and many more \nCourses to be Studied :- \n ECE217 - INtroduction to IoT \n ECE341 - Programming IoT \n ECE237 - Architecting Smart IoT Devices \n ECE363 - Creating IoT"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Thanks", "Thankyou for your help", "thanks for helping", "thankyou vary much", "thnx", "thanku"],
+         "responses": ["Happy to help", "Welcome :)", "Your Welcome!"],
+         "context_set": ""
+        }
+    ]
+}
